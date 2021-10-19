@@ -16,6 +16,10 @@
 		96F615CC271D077D00E5C1F9 /* TaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F615CB271D077D00E5C1F9 /* TaskAppTests.swift */; };
 		96F615D6271D077D00E5C1F9 /* TaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F615D5271D077D00E5C1F9 /* TaskAppUITests.swift */; };
 		96F615D8271D077D00E5C1F9 /* TaskAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F615D7271D077D00E5C1F9 /* TaskAppUITestsLaunchTests.swift */; };
+		96F615E7271D097200E5C1F9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F615E6271D097200E5C1F9 /* Home.swift */; };
+		96F615E9271D0A1600E5C1F9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F615E8271D0A1600E5C1F9 /* HomeViewModel.swift */; };
+		96F615EB271D748600E5C1F9 /* NewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F615EA271D748600E5C1F9 /* NewDataView.swift */; };
+		96F615ED271D798200E5C1F9 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F615EC271D798200E5C1F9 /* DateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		96F615D1271D077D00E5C1F9 /* TaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F615D5271D077D00E5C1F9 /* TaskAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppUITests.swift; sourceTree = "<group>"; };
 		96F615D7271D077D00E5C1F9 /* TaskAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96F615E6271D097200E5C1F9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		96F615E8271D0A1600E5C1F9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		96F615EA271D748600E5C1F9 /* NewDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataView.swift; sourceTree = "<group>"; };
+		96F615EC271D798200E5C1F9 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 		96F615B4271D077B00E5C1F9 /* TaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				96F615E5271D095200E5C1F9 /* ViewModel */,
+				96F615E4271D094B00E5C1F9 /* View */,
 				96F615B5271D077B00E5C1F9 /* TaskAppApp.swift */,
 				96F615B7271D077B00E5C1F9 /* ContentView.swift */,
 				96F615B9271D077C00E5C1F9 /* Assets.xcassets */,
@@ -131,6 +141,24 @@
 				96F615D7271D077D00E5C1F9 /* TaskAppUITestsLaunchTests.swift */,
 			);
 			path = TaskAppUITests;
+			sourceTree = "<group>";
+		};
+		96F615E4271D094B00E5C1F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96F615E6271D097200E5C1F9 /* Home.swift */,
+				96F615EA271D748600E5C1F9 /* NewDataView.swift */,
+				96F615EC271D798200E5C1F9 /* DateButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96F615E5271D095200E5C1F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96F615E8271D0A1600E5C1F9 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				96F615C2271D077C00E5C1F9 /* TaskApp.xcdatamodeld in Sources */,
+				96F615E9271D0A1600E5C1F9 /* HomeViewModel.swift in Sources */,
 				96F615BF271D077C00E5C1F9 /* Persistence.swift in Sources */,
+				96F615E7271D097200E5C1F9 /* Home.swift in Sources */,
 				96F615B8271D077B00E5C1F9 /* ContentView.swift in Sources */,
+				96F615ED271D798200E5C1F9 /* DateButton.swift in Sources */,
 				96F615B6271D077B00E5C1F9 /* TaskAppApp.swift in Sources */,
+				96F615EB271D748600E5C1F9 /* NewDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
